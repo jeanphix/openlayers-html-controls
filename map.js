@@ -24,6 +24,7 @@ function localize(){
             ), 10);
         });
     }
+    return false;
 }
 
 var initMap = function(){
