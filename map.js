@@ -21,7 +21,7 @@ function localize(){
                 ).transform(
                     new OpenLayers.Projection("EPSG:4326"),
                     map.getProjectionObject()
-            ), 5);
+            ), 10);
         });
     }
 }
