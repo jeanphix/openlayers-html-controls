@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width = device-width" />
+        <title>OpenLayers controls</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
+        <div id="map-holder">
+            <div id="map">
+            </div>
+            <nav id="map-navigation">
+                <ul>
+                    <li><a href="#" title="Zoom in" onclick="return zoomIn();" accesskey="i">+</a></li>
+                    <li><a href="#" title="Zoom out" onclick="return zoomOut();" accesskey="o">-</a></li>
+                    <li><a href="#" title="Zoom to my position" onclick="return localize();" accesskey="p">?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+    <script src="map.js"></script>
+</html>

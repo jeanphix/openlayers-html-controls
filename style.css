@@ -1,0 +1,31 @@
+#map-holder{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+#map{
+    height: 600px;
+}
+#map-holder > nav{
+    position: absolute;
+    top: 0;
+    z-index: 10000;
+}
+#map-holder > nav > ul{
+    list-style: none;
+}
+#map-holder > nav > ul > li{
+    display: inline-block;
+    margin: 0 1em 0 0;
+}
+#map-holder > nav > ul > li > a{
+    display: inline-block;
+    width: 1.5em;
+    line-height: 1.3em;
+    background: #444;
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.2em;
+}
