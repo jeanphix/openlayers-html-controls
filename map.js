@@ -47,7 +47,6 @@
                 for (var llen = links.length, li = 0; li < llen; li++){
                     var link = links[li];
                     if(link.getAttribute("data-action") != null){
-                        console.log(this[link.getAttribute("data-action")]);
                         // As addEventListener("click") doesn't work on Opera
                         link.onclick = function(e){
                             this();
