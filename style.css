@@ -1,24 +1,24 @@
-#map-holder{
+body{
+    padding: 0 5%;
+}
+.map{
     position: relative;
-    margin: 0 auto;
-    width: 90%;
-}
-#map{
     height: 600px;
+    margin: 0 auto;
 }
-#map-holder > nav{
+.map > nav{
     position: absolute;
     top: 0;
     z-index: 10000;
 }
-#map-holder > nav > ul{
+.map > nav > ul{
     list-style: none;
 }
-#map-holder > nav > ul > li{
+.map > nav > ul > li{
     display: inline-block;
     margin: 0 1em 0 0;
 }
-#map-holder > nav > ul > li > a{
+.map > nav > ul > li > a{
     display: inline-block;
     width: 1.5em;
     line-height: 1.3em;
